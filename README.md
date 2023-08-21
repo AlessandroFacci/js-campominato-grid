@@ -22,3 +22,25 @@ Scriviamo prima cosa vogliamo fare passo passo in italiano, dividiamo il lavoro 
 Di cosa ho bisogno per generare i numeri?
 Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dati giusti.
 Le validazioni e i controlli possiamo farli anche in un secondo momento.
+
+## PROCEDIMENTO
+
+### Pulsante
+
+- creo un pulsante in HTML, a cui assegno un ID
+- assegno una funzione al click del bottone che genera una griglia
+
+### Generazione griglia quadrata
+
+- definisco un contenitore dimensioni fisse
+- conto da 1 a 100 e per ogni ciclo:
+  - creo una cella con dimensioni fisse
+    - la larghezza la valuto con il calc (100% / 10)
+    - l'altezza con aspect-ratio: 1
+  - associo l'indice alla singola cella
+
+### Click cella
+
+- associo all'evento click sulla cella
+  - uso una classe per cambiare colore alla cella
+  - uso il console.log sull'indice associato alla cella
