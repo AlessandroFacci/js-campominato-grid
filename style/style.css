@@ -15,7 +15,6 @@
 #grid {
   width: 50%;
   height: 50%;
-  background-color: brown;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -24,11 +23,11 @@
 .cell {
   width: calc(100% / 10);
   aspect-ratio: 1;
-  background-color: yellow;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: yellow;
+  border: 1px solid black;
 }
 
 .azure {
