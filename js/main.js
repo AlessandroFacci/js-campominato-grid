@@ -2,6 +2,7 @@ const button = document.getElementById("generate");
 const grid = document.getElementById("grid");
 
 button.addEventListener("click", function () {
+  grid.innerHTML = "";
   generateGrid();
 });
 
