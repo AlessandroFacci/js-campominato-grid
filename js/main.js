@@ -2,11 +2,11 @@ const button = document.getElementById("generate");
 const grid = document.getElementById("grid");
 
 button.addEventListener("click", function () {
-  grid.innerHTML = "";
   generateGrid();
 });
 
 function generateGrid() {
+  grid.innerHTML = "";
   for (let i = 1; i <= 100; i++) {
     const cell = generateCell(i);
     grid.append(cell);

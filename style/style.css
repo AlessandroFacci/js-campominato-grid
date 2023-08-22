@@ -9,12 +9,12 @@
   display: flex;
   text-align: center;
   justify-content: center;
-  width: 10%;
+  max-width: 130px;
 }
 
 #grid {
-  width: 50%;
-  height: 50%;
+  width: 700px;
+  height: 700px;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
